@@ -1,4 +1,4 @@
-name: Shopping Cart CI
+name: Shopping Cart CICD pipeline
 
 # Triggers the workflow on push but only for the main branch
 on:
