@@ -32,8 +32,8 @@ jobs:
             - name: Install dependencies
               run: npm install
             
-            - name: Start React Application
-              run: npm start
+            # - name: Start React Application
+            #   run: npm start
 
             - name: Perform Smoke Test
               run: npm test
