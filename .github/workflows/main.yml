@@ -32,8 +32,8 @@ jobs:
             - name: Install dependencies
               run: npm install
 
-            - name: Fix Vulnerability issues
-              run: npm audit fix --force
+            # - name: Fix Vulnerability issues
+            #   run: npm audit fix --force
             
             # - name: Start React Application
             #   run: npm start
